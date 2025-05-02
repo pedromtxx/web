@@ -24,13 +24,13 @@ function efectoHabilidades(){
         habilidades[0].classList.add("javascript");
         habilidades[1].classList.add("htmlcss");
         habilidades[2].classList.add("PHP");
-        habilidades[3].classList.add("Bases de Datos");
-        habilidades[4].classList.add("Bses de Datos NoSQL");
+        habilidades[3].classList.add("BasesdeDatos");
+        habilidades[4].classList.add("BasesdeDatosNoSQL");
         habilidades[5].classList.add("comunicacion");
-        habilidades[6].classList.add("trabajo");
+        habilidades[6].classList.add("trabajoenequipo");
         habilidades[7].classList.add("creatividad");
         habilidades[8].classList.add("dedicacion");
-        habilidades[9].classList.add("Jefe en proyectos");
+        habilidades[9].classList.add("Jefeenproyectos");
     }
 }
 
