@@ -27,15 +27,18 @@ function efectoHabilidades(){
         habilidades[3].classList.add("BasesdeDatos");
         habilidades[4].classList.add("BasesdeDatosNoSQL");
         habilidades[5].classList.add("comunicacion");
-        habilidades[6].classList.add("trabajoenequipo");
+        habilidades[6].classList.add("trabajoenEquipo");
         habilidades[7].classList.add("creatividad");
         habilidades[8].classList.add("dedicacion");
-        habilidades[9].classList.add("Jefeenproyectos");
+        habilidades[9].classList.add("JefeenProyectos");
     }
 }
-
 
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+
+
+
