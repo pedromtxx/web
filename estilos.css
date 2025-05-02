@@ -273,48 +273,39 @@ html{
     width: 0%;
     animation: 2s javascript forwards;
 }
-@keyframes javascript {
-    0%{width: 0%;}
-    100%{width: 75%;}
-}
 
-@keyframes javascript {
-    0%{width: 0%;}
-    100%{width: 75%;}
-}
-
-.skills .skill .HTML&CSS{
+.skills .skill .htmlcss{
     width: 0%;
     animation: 2s htmlcss forwards;
 }
-@keyframes PHP{
+@keyframes htmlcss{
     0%{width: 0%;}
     100%{width: 89%;}
 }
 
 .skills .skill .PHP{
     width: 0%;
-    animation: 2s php forwards;
+    animation: 2s PHP forwards;
 }
-@keyframes BasesDatos{
+@keyframes PHP{
     0%{width: 0%;}
     100%{width: 95%;}
 }
 
-.skills .skill .BasesDatos{
+.skills .skill .BasesdeDatos{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s BasesdeDatos forwards;
 }
-@keyframes BasesDatosNoSQL{
+@keyframes BasesdeDatos{
     0%{width: 0%;}
     100%{width: 81%;}
 }
 
-.skills .skill .BaseDatosNoSQL{
+.skills .skill .BasesdeDatosNoSQL{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s BasesdeDatosNoSQL forwards;
 }
-@keyframes drupal {
+@keyframes BasesdeDatosNoSQL{
     0%{width: 0%;}
     100%{width: 55%;}
 }
@@ -328,11 +319,11 @@ html{
     100%{width: 80%;}
 }
 
-.skills .skill .trabajo{
+.skills .skill .trabajoenEquipo{
     width: 0%;
-    animation: 2s trabajo forwards;
+    animation: 2s trabajoenEquipo forwards;
 }
-@keyframes trabajo {
+@keyframes trabajoenEquipo {
     0%{width: 0%;}
     100%{width: 70%;}
 }
@@ -355,11 +346,11 @@ html{
     100%{width: 65%;}
 }
 
-.skills .skill .Jefedeproyectos{
+.skills .skill .JefeenProyectos{
     width: 0%;
-    animation: 2s Jefedeproyectos forwards;
+    animation: 2s JefeenProyectos forwards;
 }
-@keyframes Jefedeproyectos {
+@keyframes JefeenProyectos {
     0%{width: 0%;}
     100%{width: 94%;}
 }
