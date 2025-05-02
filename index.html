@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Pedro</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Pedro Martínez</h1>
+            <h2>Estudiante en Desarrollo de Software - del ISTJBA</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Pedro Martínez.</span> Tengo 19 años, pertenerco a la ciudad de Daule de la Provincia de Guayas,
+                mis pasatienpo favorito es escuchar musica,jugar tanto videojuesgos
+                online como futbol, hacer ejercicos,
+                Soy desarrollador engresado del Institituto Juan Baustista Aguirre,eh particiapdo en Proyectos Integradores de Saberes, 
+                igualmente en craciones de aplicaciones moviles y web.Unos de mis logros mas importante fue liderar proyectos de inventrios 
+                en el Gad Parroquiual de Laurel.
+                También desarrollé un sistema de reportes en tiempo real para una empresas,
+                lo que permitió optimizar su cadena de suministro y reducir pérdidas. 
+                Me considero una persona resolutiva, con enfoque en resultados y buena 
+                comunicación con equipos multidisciplinarios.<p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            27-10-2005
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            09-69-33-84-33
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            pm@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.ElRincondePedro.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Av.Daule-Ecuador
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Estudiante</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>     
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-linux"></i>
+                            <span>Linux God</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>MOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidaes Tecnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bases de Datos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bases de Datos NoSQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Jefe en Proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Escuela</h4>
+                        <span class="casa">Escuela"Hipolito Camba Ramos"</span>
+                        <span class="fecha">2010 - 2017</span>
+                        <p>Mi primera Etapa como estudiante, desde pequeño siempre me interesó la tecnología y 
+                            cómo funcionan las cosas detrás de una pantalla.Inicié mis estudios en la escuela "Hipolito Camba Ramos"
+                            con una gran curiosidad por las computadoras, lo que me motivó a participar en talleres de informática durante 
+                             la secundaria.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Colegio</h4>
+                        <span class="casa">Colegio "Galo Plaza Lasso"</span>
+                        <span class="fecha">2017 - 2023</span>
+                        <p>Continue con mis estudios en el Colegio "Galo Plaza Lasso", aun que las especiales no eran de todo tecnologio
+                            hize cursos de verano durante años sobre las tecnologia actuales desde el año que inicie estando en la instititucion
+                            para preparame o estar actualizado al llegar a una Universidad.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Institituto</h4>
+                        <span class="casa">Institituto Superior Tecnologico Juan Bautista Aguirre</span>
+                        <span class="fecha">2023 - actualidad</span>
+                        <p>Posteriolmenete, estoy cursando la Carrera de Desarrollo de Software, en quinto semestre y ultimo de la Carrera,
+                            a sido una buea experiencia en el instituto durante estos 2 años de preàracion academica y aspiro a graduarme
+                             este año con un buen puntaje para seguir con mis estudio en la Universidad para 
+                            lograr el Titulo en Ingieneria de Software.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Desarrollador Full Stack</h4>
+                        <span class="casa">Empresa Tecnologica</span>
+                        <span class="fecha">2023 - 2023</span>
+                        <p>Participé en el desarrollo de una plataforma de gestión de ventas y facturación electrónica. Me encargué de diseñar
+                             y construir módulos tanto en frontend como backend, logrando mejorar la experiencia de usuario y reducir incidencias 
+                             en un 40%.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Ayudante de Desarrollo movil</h4>
+                        <span class="casa">Proyecto PIS (Proyectos de integradores de Saberes)</span>
+                        <span class="fecha">2024</span>
+                        <p>Colaboré en la creación de una interfax grafica para la Usabilidad de aplicaciones moviles patra pedidos
+                            en restaurantes en el instituto Superior "ISTJBA" alumnos y docentes. Realicé mantenimientos y
+                             actualizaciones de experiencia intuitiva y amigable para usuarios sin experiencia técnica, utilizando colores suaves, 
+                             íconos descriptivos y una navegación simple.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Practicante en el desarrollo web</h4>
+                        <span class="casa">Gad Parroquial "EL LAUREL"</span>
+                        <span class="fecha">2024</span>
+                        <p>articipé en el desarrollo de un sistema de inventario para El Gad Parroquial "EL LAUREL", permitiendo registrar productos, controlar 
+                            entradas y salidas, y generar reportes de stock en tiempo real. Implementé alertas automáticas para productos con bajo stock y 
+                            reportes mensuales de movimiento de mercadería.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Sistema de Inventario para Tienda Local</h3>
+                        <p>Control de productos, stock y reportes de existencias.</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Sistema de Control de Notas Escolares</h3>
+                        <p>egistro de alumnos, asignación de notas, reportes de promedios y actas finales.
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Aplicación de Control de Tareas Personales</h3>
+                        <p>App de escritorio para organizar tareas diarias con recordatorios y reportes semanales.</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Sistema de Gestión de Citas Médicas</h3>
+                        <p>Sistema de Gestión de Citas Médicas</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Sistema Web de Control de Ventas</h3>
+                        <p>Plataforma para registrar ventas, generar comprobantes y reportes de ingresos.</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>App de Control de Asistencia Laboral</h3>
+                        <p>Registro de ingreso y salida de personal, reportes mensuales y control de horas extras.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Ecuador,Guayas
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 09545- 88674
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: pm@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
