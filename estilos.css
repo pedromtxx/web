@@ -278,34 +278,39 @@ html{
     100%{width: 75%;}
 }
 
-.skills .skill .htmlcss{
+@keyframes javascript {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .HTML&CSS{
     width: 0%;
     animation: 2s htmlcss forwards;
 }
-@keyframes htmlcss {
+@keyframes PHP{
     0%{width: 0%;}
     100%{width: 89%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .PHP{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s php forwards;
 }
-@keyframes photoshop {
+@keyframes BasesDatos{
     0%{width: 0%;}
     100%{width: 95%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .BasesDatos{
     width: 0%;
     animation: 2s wordpress forwards;
 }
-@keyframes wordpress {
+@keyframes BasesDatosNoSQL{
     0%{width: 0%;}
     100%{width: 81%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .BaseDatosNoSQL{
     width: 0%;
     animation: 2s drupal forwards;
 }
@@ -350,11 +355,11 @@ html{
     100%{width: 65%;}
 }
 
-.skills .skill .proyect{
+.skills .skill .Jefedeproyectos{
     width: 0%;
-    animation: 2s proyect forwards;
+    animation: 2s Jefedeproyectos forwards;
 }
-@keyframes proyect {
+@keyframes Jefedeproyectos {
     0%{width: 0%;}
     100%{width: 94%;}
 }
